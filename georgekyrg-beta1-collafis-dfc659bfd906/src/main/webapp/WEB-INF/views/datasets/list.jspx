@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_beta1_collafis_dataset_Dataset" items="${datasets}" z="ZD29XlLSwJpa3ZqwljRX9nJ/g0k=">
+        <table:table data="${datasets}" id="l_beta1_collafis_dataset_Dataset" path="/datasets" z="wUnalQOZtXfjw/uP/eL30/1HclI=">
+            <table:column id="c_beta1_collafis_dataset_Dataset_ratings" property="ratings" z="LimTMBrkwxzW216LUBBtTdsMpjE="/>
+            <table:column id="c_beta1_collafis_dataset_Dataset_groups" property="groups" z="lKgqCDMEuZzQymPxIeWtVUUVfjs="/>
+            <table:column id="c_beta1_collafis_dataset_Dataset_dimensions" property="dimensions" z="sGDfsCqTocs6yTT2TXwjjp7hlQw="/>
+            <table:column id="c_beta1_collafis_dataset_Dataset_name" property="name" z="hJFiwPQaeljqN+oZvhpAQxB23z4="/>
+            <table:column id="c_beta1_collafis_dataset_Dataset_mMean" property="MMean" z="nSff7jgzvVrwBxrpaSW/Rbz85Vk="/>
+            <table:column id="c_beta1_collafis_dataset_Dataset_mMedian" property="MMedian" z="VUcTE9Dhnz4hLXAKFzoGY7I5010="/>
+        </table:table>
+    </page:list>
+</div>

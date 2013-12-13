@@ -1,0 +1,14 @@
+#Roo generated files
+*.aj
+
+#vim files
+*.swp
+
+#old files
+*.old
+
+#lenskit evaluation logs
+*.csv
+
+#maven build artifacts
+target

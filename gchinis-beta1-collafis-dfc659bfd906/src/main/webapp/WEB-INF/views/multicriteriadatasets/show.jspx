@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_beta1_collafis_dataset_MultiCriteriaDataset" object="${multicriteriadataset}" path="/multicriteriadatasets" z="W5kdGVXENoJlLn6iKwECbDHiJaU=">
+        <field:display field="name" id="s_beta1_collafis_dataset_MultiCriteriaDataset_name" object="${multicriteriadataset}" z="Klhmcy7eyeU0w/vXxK7uluYwcxc="/>
+        <field:display field="MUsers" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mUsers" object="${multicriteriadataset}" z="IUJUGQt2TcY9lLSkmGZCwKwPLM4="/>
+        <field:display field="MItems" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mItems" object="${multicriteriadataset}" z="RjkSuN3f0wechat2dhKFgOz1VK0="/>
+        <field:display field="MRatings" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mRatings" object="${multicriteriadataset}" z="pmovIdSOJQ+Nyq1OgARkMPsK9CQ="/>
+        <field:display field="groups" id="s_beta1_collafis_dataset_MultiCriteriaDataset_groups" object="${multicriteriadataset}" z="8nx/U82MmkOynHSe9uzsOqWr7yo="/>
+        <field:display field="dimensions" id="s_beta1_collafis_dataset_MultiCriteriaDataset_dimensions" object="${multicriteriadataset}" z="1s4FBRHTZhr137EQdedqhwxjeCQ="/>
+        <field:display field="MMean" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mMean" object="${multicriteriadataset}" z="xUpwaAgmru6i8WoJi19VHMfAljs="/>
+        <field:display field="MMedian" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mMedian" object="${multicriteriadataset}" z="Va1FxM82l7qKX0lVqOaQtQfyTUg="/>
+        <field:display field="MVariance" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mVariance" object="${multicriteriadataset}" z="9dhVrQKiwSdzCuy1bWygLNTUseI="/>
+        <field:display field="MItemGini" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mItemGini" object="${multicriteriadataset}" z="i2qWcyjXxkFfdbKZpMHo1JozcjI="/>
+        <field:display field="MUserGini" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mUserGini" object="${multicriteriadataset}" z="xe+PbFDVpsucY2Fu7DA8JMPGGKQ="/>
+        <field:display field="MItemSkewness" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mItemSkewness" object="${multicriteriadataset}" z="jeCxQG/xCJSNepu97pHM7u+RxOY="/>
+        <field:display field="MUserSkewness" id="s_beta1_collafis_dataset_MultiCriteriaDataset_mUserSkewness" object="${multicriteriadataset}" z="qg8DgdcPE2LT4dxonB4zuR7J3Bg="/>
+        <field:display field="grouping" id="s_beta1_collafis_dataset_MultiCriteriaDataset_grouping" object="${multicriteriadataset}" z="6reGVaHOJJV4i3z4EBgZfH9mYvI="/>
+    </page:show>
+</div>

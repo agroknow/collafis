@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_beta1_collafis_entry_MultiCriteriaEntry" items="${multicriteriaentrys}" z="z6FfNnR8xTXOrS1TCKHHSUj+BG4=">
+        <table:table data="${multicriteriaentrys}" id="l_beta1_collafis_entry_MultiCriteriaEntry" path="/multicriteriaentrys" typeIdFieldName="eventId" z="nx7ap/kbrkJN4xZkETdy4cwNeM8=">
+            <table:column id="c_beta1_collafis_entry_MultiCriteriaEntry_timestamp" property="timestamp" z="fj3ryLPvQDZKFJApIpg2BKpozNw="/>
+            <table:column id="c_beta1_collafis_entry_MultiCriteriaEntry_userId" property="userId" z="kqG++ntBHAi77IpH5fSu0sILLhM="/>
+            <table:column id="c_beta1_collafis_entry_MultiCriteriaEntry_itemId" property="itemId" z="q2sj0No1dGk6REhpiCQIXi8pst0="/>
+            <table:column id="c_beta1_collafis_entry_MultiCriteriaEntry_dimensions" property="dimensions" z="S2iUZT+9cYq9S3BAS1HnO4UXbdI="/>
+            <table:column id="c_beta1_collafis_entry_MultiCriteriaEntry_defaultDim" property="defaultDim" z="QPgxyrZnPRSXPbfSiSTPpIKGkQs="/>
+            <table:column id="c_beta1_collafis_entry_MultiCriteriaEntry_dataset" property="dataset" z="VO6bcIthyFeOLdiZLRO/KnPPVhw="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,73 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+    xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+
+  <spring:message var="title" code="webflow_data_characteristics_title" htmlEscape="false" />
+  <util:panel id="title" title="${title}">
+    <h1>${fn:escapeXml(title)}</h1>
+    <p>
+      <spring:message code="webflow_data_characteristics_message" />
+    </p>
+
+    <table>
+    
+<!--  Names of Columns  -->
+        <tr>
+            <td>Property</td>
+        
+            <c:forEach var="dim" items="${dimensions}">
+               <td> ${dim}</td>
+            </c:forEach>
+        
+     
+        </tr>
+    
+<!--  Values  --> 
+
+      <c:forEach var="entry" items="${results}">
+        
+        <tr>
+            <td>${entry.key}</td>
+            
+            <c:forEach var="measurment" items="${entry.value}">
+                <td>${measurment}</td>
+            </c:forEach>
+        
+        </tr>
+      </c:forEach>
+
+    </table>    
+
+<!--
+   <div id="1"> </div>
+   <script>drawChart("1", ${graph1.data}, ${graph1.options});</script>
+ 
+   <div id="2"> </div>
+   <script>drawChart("2", ${graph2.data}, ${graph2.options});</script>
+
+   <div id="3"> </div>
+   <script>drawChart("3", ${graph3.data}, ${graph3.options});</script>
+
+   <div id="4"> </div>
+   <script>drawChart("4", ${graph4.data}, ${graph4.options});</script>
+-->
+
+    <c:forEach  var="chart" items="${charts}" varStatus="status">
+        <div id="chart${status.count}"> </div>
+        <script>drawChart("chart${status.count}", ${chart.data}, ${chart.options});</script>
+    </c:forEach>
+
+    <form method="POST">
+      <div class="submit">
+        <spring:message var="cancel" code="button_cancel" htmlEscape="false" />
+        <spring:message var="proceed" code="button_proceed" htmlEscape="false" />
+        <spring:message var="download" code="button_download" htmlEscape="false" />
+        <input type="submit" id="cancel" name="_eventId_cancel" value="${fn:escapeXml(cancel)}" />
+        <input type="submit" id="download" name="_eventId_download" value="${fn:escapeXml(download)}" />
+        <input type="submit" id="success" name="_eventId_success" value="${fn:escapeXml(proceed)}" />
+      </div>
+    </form>
+  </util:panel>
+</div>

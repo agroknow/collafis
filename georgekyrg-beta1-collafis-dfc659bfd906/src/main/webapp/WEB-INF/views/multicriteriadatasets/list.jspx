@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_beta1_collafis_dataset_MultiCriteriaDataset" items="${multicriteriadatasets}" z="oIDoK/C3BEyW64P/osagOKrAjkc=">
+        <table:table data="${multicriteriadatasets}" id="l_beta1_collafis_dataset_MultiCriteriaDataset" path="/multicriteriadatasets" z="Ou0VwI+tDEvUH3J20tUaEZ4im1w=">
+            <table:column id="c_beta1_collafis_dataset_MultiCriteriaDataset_name" property="name" z="4YvXgtSvrN/N0QnwHPyy5oHt3NI="/>
+            <table:column id="c_beta1_collafis_dataset_MultiCriteriaDataset_mUsers" property="MUsers" z="1JhWBLZRdD9zZ64dUNYdt+LlykY="/>
+            <table:column id="c_beta1_collafis_dataset_MultiCriteriaDataset_mItems" property="MItems" z="MznQGdSmZmogUq3OtDXE6Ef0W+c="/>
+            <table:column id="c_beta1_collafis_dataset_MultiCriteriaDataset_mRatings" property="MRatings" z="fQTUvUAx8UVXY5UHENW2ZnyAcwI="/>
+            <table:column id="c_beta1_collafis_dataset_MultiCriteriaDataset_grouping" property="grouping" z="rUQRSkjJRa3E/AP6qk+47W/ntUM="/>
+        </table:table>
+    </page:list>
+</div>

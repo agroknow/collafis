@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_beta1_collafis_dataset_Dataset" modelAttribute="dataset" path="/datasets" versionField="Version" z="Dd9DczdqcU/1It5DLXejZ/OPJWo=">
+        <field:input field="ratings" id="c_beta1_collafis_dataset_Dataset_ratings" z="tnJpjqFCIA11pDQJVfIH2n7URVc="/>
+        <field:input field="groups" id="c_beta1_collafis_dataset_Dataset_groups" z="Bejy6e8LuhpE5XFy3VnX/z0Ipms="/>
+        <field:input field="dimensions" id="c_beta1_collafis_dataset_Dataset_dimensions" z="0vS7yl1sItzEsZEgqP2bbHB10pM="/>
+        <field:input field="name" id="c_beta1_collafis_dataset_Dataset_name" required="true" z="bH9UQ2oFDF50hK+jj0N0QHFY3Uk="/>
+        <field:input field="mMean" id="c_beta1_collafis_dataset_Dataset_mMean" z="LtATOJAuxKPwXtYrNBuXeL8Lnrc="/>
+        <field:input field="mMedian" id="c_beta1_collafis_dataset_Dataset_mMedian" z="duIkPjkw9ZHgR7BBSTOsRqq+6hs="/>
+        <field:input field="mVariance" id="c_beta1_collafis_dataset_Dataset_mVariance" z="yCwMHKxh4M6bkGiEV+i3/+plhZY="/>
+        <field:input field="mItemGini" id="c_beta1_collafis_dataset_Dataset_mItemGini" z="tKEEufoy2KQxQ+VVCtJ3K2WC7lk="/>
+        <field:input field="mUserGini" id="c_beta1_collafis_dataset_Dataset_mUserGini" z="begtm7edEy3hF8xNect5RilepZk="/>
+        <field:input field="mItemSkewness" id="c_beta1_collafis_dataset_Dataset_mItemSkewness" z="XdmJTuEMOBXxJm1s3TXRv2lcS70="/>
+        <field:input field="mUserSkewness" id="c_beta1_collafis_dataset_Dataset_mUserSkewness" z="M4/vw5bgju/iyNOpHQCYN4lxCfs="/>
+        <field:input field="mUsers" id="c_beta1_collafis_dataset_Dataset_mUsers" z="VlraEobiDJYMkiJpvcT1kTMmR5Q="/>
+        <field:input field="mItems" id="c_beta1_collafis_dataset_Dataset_mItems" z="NLOcvOmKDLqck4Jl1C4MPe9+eD0="/>
+        <field:input field="mRatings" id="c_beta1_collafis_dataset_Dataset_mRatings" z="VPfuPjADH5llKsh9ccB6nvRCoLg="/>
+        <field:input field="prefix" id="c_beta1_collafis_dataset_Dataset_prefix" z="50WsFmWiNgVYy1fs2lfQ2lWXaCk="/>
+    </form:update>
+</div>

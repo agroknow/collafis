@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_dataset" z="8v6u2JQw6ua8kbT2zW1sFUNGceU=">
+            <menu:item id="i_dataset_new" messageCode="global_menu_new" url="/datasets?form" z="IkOAVp6qsKlvJ7TI906mWO6PP2I="/>
+            <menu:item id="i_dataset_list" messageCode="global_menu_list" url="/datasets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="AvOHy4PyU2U66z497jPBefa2R0E="/>
+        </menu:category>
+        <menu:category id="c_flows" z="5igpkb/e+HPIN8iUErvmM38Eqqk=">
+            <menu:item id="i_flows_sampleflow" messageCode="webflow_menu_enter" url="/sampleflow" z="JMM+dAVQySYHXliwJ5d5AQocPfk="/>
+            <menu:item id="i_flows_experiment" messageCode="webflow_menu_enter" url="/experiment" z="MmX6lSrVfAG2lhoDBJRQSfU5R14="/>
+        </menu:category>
+        <menu:category id="c_multicriteriadataset" z="toOUNV1vKMm5Jf4yUSq2PqZVuK4=">
+            <menu:item id="i_multicriteriadataset_new" messageCode="global_menu_new" url="/multicriteriadatasets?form" z="EmV6Z8NoSES7Hpf09Cqg+EYU4dg="/>
+            <menu:item id="i_multicriteriadataset_list" messageCode="global_menu_list" url="/multicriteriadatasets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3WAJVhHToa4J+Vlu/9MolsBCxoA="/>
+        </menu:category>
+        <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
+            <menu:item id="i_controller__multicriteriaentryindex_id" messageCode="global_generic" url="/multicriteriaentry/index" z="vtSb/NAksfd80oQIVU1Flm3pQE4="/>
+        </menu:category>
+        <menu:category id="c_multicriteriaentry" z="xltXArM8KitdN7tQnDaU26VB3dk=">
+            <menu:item id="i_multicriteriaentry_new" messageCode="global_menu_new" url="/multicriteriaentrys?form" z="TyvS2Ub37s3Uu+UdI8wrLXrqSYI="/>
+            <menu:item id="i_multicriteriaentry_list" messageCode="global_menu_list" url="/multicriteriaentrys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QcYd6YMYXG9FyUR2ECEBikcKxPQ="/>
+        </menu:category>
+    </menu:menu>
+</div>

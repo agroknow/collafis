@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_beta1_collafis_dataset_Dataset" object="${dataset}" path="/datasets" z="v7/cEUaHDZ7az97nQmJWp69G2Xk=">
+        <field:display field="ratings" id="s_beta1_collafis_dataset_Dataset_ratings" object="${dataset}" z="AWqWiYsflCO8gxrKbveZm7KXciE="/>
+        <field:display field="groups" id="s_beta1_collafis_dataset_Dataset_groups" object="${dataset}" z="cwNbOu9VEEuBOzUwnPPt5C91JgE="/>
+        <field:display field="dimensions" id="s_beta1_collafis_dataset_Dataset_dimensions" object="${dataset}" z="zz15ArwD0WdPZTHHyblsjw5CN7c="/>
+        <field:display field="name" id="s_beta1_collafis_dataset_Dataset_name" object="${dataset}" z="MEb7z9bW/6j+Xk63Ug5QtivN7lw="/>
+        <field:display field="MMean" id="s_beta1_collafis_dataset_Dataset_mMean" object="${dataset}" z="KjWTH2IGCcGfPnc6I+MJUltFC7s="/>
+        <field:display field="MMedian" id="s_beta1_collafis_dataset_Dataset_mMedian" object="${dataset}" z="GseQJ4ck+yxr4+lePkjulRhq6Yg="/>
+        <field:display field="MVariance" id="s_beta1_collafis_dataset_Dataset_mVariance" object="${dataset}" z="zHA33Ve2IjCiep+jcMZZceaxVRM="/>
+        <field:display field="MItemGini" id="s_beta1_collafis_dataset_Dataset_mItemGini" object="${dataset}" z="65TPBIbKewRtkRWpi0xctF5Vh80="/>
+        <field:display field="MUserGini" id="s_beta1_collafis_dataset_Dataset_mUserGini" object="${dataset}" z="YMhNymXngRW0Ofwls01TEs8eefU="/>
+        <field:display field="MItemSkewness" id="s_beta1_collafis_dataset_Dataset_mItemSkewness" object="${dataset}" z="xKEwUN2g1HrH2BffPzA46oWYaUs="/>
+        <field:display field="MUserSkewness" id="s_beta1_collafis_dataset_Dataset_mUserSkewness" object="${dataset}" z="7Q4E7YMmppFLffCgtzx2RmZMHwU="/>
+        <field:display field="MUsers" id="s_beta1_collafis_dataset_Dataset_mUsers" object="${dataset}" z="/ukORS90ZeRNGfRVNJeKdqwOcqc="/>
+        <field:display field="MItems" id="s_beta1_collafis_dataset_Dataset_mItems" object="${dataset}" z="Ch/3lkNsi8yGn+86LIuYFhOOn6s="/>
+        <field:display field="MRatings" id="s_beta1_collafis_dataset_Dataset_mRatings" object="${dataset}" z="G/m8KijdoIyIgCjKvlQBfD3U6mE="/>
+        <field:display field="prefix" id="s_beta1_collafis_dataset_Dataset_prefix" object="${dataset}" z="JHN2udpMrxuJh0qryvLK47KTMrQ="/>
+    </page:show>
+</div>

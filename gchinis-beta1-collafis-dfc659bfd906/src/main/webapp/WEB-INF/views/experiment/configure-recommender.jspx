@@ -1,0 +1,53 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util"
+      xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+      version="2.0">
+
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="title" code="webflow_configure_recommender_title" htmlEscape="false" />
+  <util:panel id="title" title="${title}">
+    <h1>${fn:escapeXml(title)}</h1>
+    <p>
+      <spring:message code="webflow_configure_recommender_message" />
+    </p>
+
+      <form method="POST"> 
+      <div>
+        <table>
+          <tr>
+            <td> <label for="neighborhoodsize">Neighborhood Size:</label> </td>
+            <td> <input name="neighborhoodSize" type="text" placeholder="Number of users in each neighborhood" /> </td>
+          </tr>
+          <tr>
+           <td> <label for="partitions">Number of partitions:</label> </td>
+           <td> <input name="partitions" type="text" placeholder="Number of train-test partition" /> </td>
+          </tr>
+          <tr>
+            <td> <label for="holdout">Holdout:</label> </td>
+            <td> <input name="holdout" type="text" placeholder="Percent of ratings to be left out from the train partition, to be used in the test partition" /> </td>
+          </tr>
+          
+         <tr>
+           <td>Similarity Function</td>
+           <td>
+             <select name="chosenSimilarity" size="3" tabindex="1">
+               <c:forEach var="function" items="${similarityFunction}" > 
+                 <option value="${function.value}">${function.key}</option>
+               </c:forEach>
+             </select>
+           </td>
+         </tr>
+      </table>
+      </div>
+       
+      
+      <div class="submit">
+        <spring:message var="cancel" code="button_cancel" htmlEscape="false" />
+        <spring:message var="proceed" code="button_proceed" htmlEscape="false" />
+        <input type="submit" id="cancel" name="_eventId_cancel" value="${fn:escapeXml(cancel)}" />
+        <input type="submit" id="success" name="_eventId_success" value="${fn:escapeXml(proceed)}" />
+      </div>
+    </form>
+  </util:panel>
+</div>
